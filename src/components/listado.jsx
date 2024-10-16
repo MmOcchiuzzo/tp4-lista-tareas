@@ -10,8 +10,6 @@ export const Listado = ({ personas }) => {
 
   return (
     <div>
-      <h2 className="font-black text-3xl text-center">Listado de tareas</h2>
-      <p className="text-xl mt-5 mb-10 text-center text-green-600 font-bold">Administra tus Tareas</p>
 
       <UnorderedList>
         {personas.map(persona => (
